@@ -7,3 +7,7 @@ console.log(typeof true);
 var hello;
 
 console.log(hello)
+
+var string = 10;
+
+console.log(17%5)
