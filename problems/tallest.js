@@ -9,5 +9,3 @@ function tallestFriend(height) {
 }
 
 console.log(tallestFriend([157, 134, 188]));
-
-// https://www.jschallenger.com/?ref=java5cript.com
