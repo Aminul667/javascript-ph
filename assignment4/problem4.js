@@ -1,13 +1,25 @@
-// Problem 4: Finding Bad data
+/*
+  Problem 4: Finding Bad data
+  Sample Input & Output:-
 
-function findingBadData(numbers) {
-  let count = 0;
-  for (const number of numbers) {
+  Input: [1, 2, 5]
+  Output: 0
+
+  Input: [2, -5, -7, -13]
+  Output: 3
+
+  Input: [-4, -9, -5, -33, -55]
+  Output: 5
+*/
+
+function findingBadData(aryOfNumbers) {
+  let countBadData = 0;
+  for (const number of aryOfNumbers) {
     if (number < 0) {
-      count++;
+      countBadData++;
     }
   }
-  return count;
+  return countBadData;
 }
 
 console.log(findingBadData([1, 2, 5]));

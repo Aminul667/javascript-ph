@@ -1,4 +1,16 @@
-// Problem 2: Finding even or odd
+/*
+Problem 2: Finding even or odd
+Sample Input & Output:
+
+Input: ‘Phero’
+Output: odd
+
+Input: ‘Batch7’
+Output: even
+
+Input: ‘chatgpt’
+Output: odd
+*/
 
 function evenOdd(str) {
   if (typeof str !== "string") {
@@ -6,9 +18,9 @@ function evenOdd(str) {
   }
 
   if (str.length % 2 === 0) {
-    return "Even";
+    return "even";
   }
-  return "Odd";
+  return "odd";
 }
 
 console.log(evenOdd("Phero"));
