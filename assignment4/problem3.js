@@ -12,6 +12,8 @@
   Output: 30
 */
 
+// this function takes a number as a parameter and returns a number either subtracting the number from 7 or multiplying the number by 2 according to the problem description.
+
 function isLGSeven(num) {
   if (typeof num !== "number") {
     return "ERROR: Please pass a number as a parameter.";
