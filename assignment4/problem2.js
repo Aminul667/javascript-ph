@@ -13,6 +13,7 @@ Output: odd
 */
 
 // this function takes a string as a parameter and return a text "even" or "odd" according to the problem description.
+
 function evenOdd(str) {
   if (typeof str !== "string") {
     return "ERROR: Please pass a string as a parameter.";

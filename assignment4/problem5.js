@@ -13,6 +13,7 @@
 */
 
 // this function takes three numbers as parameters and returns a number according to the problem description
+
 function gemsToDiamond(firstFriend, secondFriend, thirdFriend) {
   if(typeof firstFriend !== "number" || typeof secondFriend !== "number" || typeof thirdFriend !== "number"){
     return "Invalid parameter has been passed."

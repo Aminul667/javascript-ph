@@ -14,6 +14,7 @@
 
 
 // this function takes a parameter as input and return a number as output according to the problem description
+
 function mindGame(num) {
   if (typeof num !== "number" || num <= 0) {
     return "ERROR: Please pass a positive number as a parameter";
