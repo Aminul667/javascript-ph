@@ -12,7 +12,7 @@
   Output: 49.5
 */
 
-// this function takes a parameter as input and return a number as output according to the problem description.
+// this function takes a parameter as input and returns a number as output according to the problem description.
 function mindGame(num) {
   if (typeof num !== "number" || num <= 0) {
     return "ERROR: Please pass a positive number as a parameter";
@@ -35,7 +35,7 @@ Input: ‘chatgpt’
 Output: odd
 */
 
-// this function takes a string as a parameter and return a text "even" or "odd" according to the problem description.
+// this function takes a string as a parameter and returns a text "even" or "odd" according to the problem description.
 function evenOdd(str) {
   if (typeof str !== "string") {
     return "ERROR: Please pass a string as a parameter.";
@@ -88,7 +88,7 @@ function isLGSeven(num) {
   Output: 5
 */
 
-// this function takes an array as an input parameter and returns the total number of zeros in the array according to the problem description.
+// this function takes an array as an input parameter and returns the total number of negative values in the array according to the problem description.
 function findingBadData(aryOfNumbers) {
   if (typeof aryOfNumbers !== "object" || aryOfNumbers.length === 0) {
     return "ERROR: Please pass a non-empty array as a parameter.";
